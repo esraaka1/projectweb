@@ -21,6 +21,9 @@ namespace BayiSatisProjesi.Controllers
         {
             return View();
         }
-
+        public ActionResult BayiGirisi()
+        {
+            return View();
+        }
     }
 }
