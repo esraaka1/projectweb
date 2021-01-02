@@ -4,18 +4,13 @@
 
 
 
-<div class="col-md-3">
-    <div class="list-group">
+<div class="row">
 
-
-
-   
-
-
-    @foreach (var kategori in Model)
-    {
-        <a href="#" class="list-group-item list-group-item-action">
-            @kategori.KategoriAdi
-        </a>
-    }
- </div>
+    <div class="col-md-8 col-sm-8">
+        @foreach (var kategori in Model)
+        {
+            <a href="#" class="list-group-item list-group-item-action">
+                @kategori.KategoriAdi
+            </a>
+        }
+    </div>

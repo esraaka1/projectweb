@@ -19,9 +19,9 @@ namespace BayiSatisProjesi.Controllers
         {
             List<Kategori> kategoriler = new List<Kategori>()
             {
-                new Kategori() { Id = 1, KategoriAdi = "Kamyon"},
-                new Kategori() { Id = 2, KategoriAdi = "Tır"},
-                new Kategori() { Id = 3, KategoriAdi = "Traktör"}
+                new Kategori() { Id = 1, KategoriAdi = "Kamyonet Liftleri"},
+                new Kategori() { Id = 2, KategoriAdi = "Kamyon Liftleri"},
+                new Kategori() { Id = 3, KategoriAdi = "Tır Liftleri"}
             };
             return PartialView("KategoriMenu", kategoriler);
     }
