@@ -17,7 +17,10 @@ namespace BayiSatisProjesi.Controllers
         {
             return View();
         }
-
+        public ActionResult Urunler()
+        {
+            return View();
+        }
 
     }
 }
