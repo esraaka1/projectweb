@@ -276,7 +276,10 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
-
+.list-group {
+    padding-left: 0;
+    list-style: none;
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
