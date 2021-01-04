@@ -1,6 +1,6 @@
 /* Fonts */
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'pacificoregular';
     src: url('fonts/pacifico/pacifico-webfont.eot');
     src: url('fonts/pacifico/pacifico-webfontd41d.eot?#iefix') format('embedded-opentype'),
          url('fonts/pacifico/pacifico-webfont.woff') format('woff'),
@@ -11,51 +11,75 @@
 }
 
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'open_sansbold';
     src: url('fonts/opensans/opensans-bold-webfont.eot');
-    src: url('fonts/opensans/opensans-bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('fonts/opensans/opensans-bold-webfont.woff') format('woff'), url('fonts/opensans/opensans-bold-webfont.ttf') format('truetype'), url('fonts/opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    src: url('fonts/opensans/opensans-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'open_sansbold_italic';
     src: url('fonts/opensans/opensans-bolditalic-webfont.eot');
-    src: url('fonts/opensans/opensans-bolditalic-webfontd41d.eot?#iefix') format('embedded-opentype'), url('fonts/opensans/opensans-bolditalic-webfont.woff') format('woff'), url('fonts/opensans/opensans-bolditalic-webfont.ttf') format('truetype'), url('fonts/opensans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    src: url('fonts/opensans/opensans-bolditalic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans/opensans-bolditalic-webfont.woff') format('woff'),
+         url('fonts/opensans/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/opensans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'open_sansitalic';
     src: url('fonts/opensans/opensans-italic-webfont.eot');
-    src: url('fonts/opensans/opensans-italic-webfontd41d.eot?#iefix') format('embedded-opentype'), url('fonts/opensans/opensans-italic-webfont.woff') format('woff'), url('fonts/opensans/opensans-italic-webfont.ttf') format('truetype'), url('fonts/opensans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    src: url('fonts/opensans/opensans-italic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans/opensans-italic-webfont.woff') format('woff'),
+         url('fonts/opensans/opensans-italic-webfont.ttf') format('truetype'),
+         url('fonts/opensans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'open_sanslight';
     src: url('fonts/opensans/opensans-light-webfont.eot');
-    src: url('fonts/opensans/opensans-light-webfontd41d.eot?#iefix') format('embedded-opentype'), url('fonts/opensans/opensans-light-webfont.woff') format('woff'), url('fonts/opensans/opensans-light-webfont.ttf') format('truetype'), url('fonts/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    src: url('fonts/opensans/opensans-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'open_sanslight_italic';
     src: url('fonts/opensans/opensans-lightitalic-webfont.eot');
-    src: url('fonts/opensans/opensans-lightitalic-webfontd41d.eot?#iefix') format('embedded-opentype'), url('fonts/opensans/opensans-lightitalic-webfont.woff') format('woff'), url('fonts/opensans/opensans-lightitalic-webfont.ttf') format('truetype'), url('fonts/opensans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    src: url('fonts/opensans/opensans-lightitalic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans/opensans-lightitalic-webfont.woff') format('woff'),
+         url('fonts/opensans/opensans-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/opensans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Times New Roman';
+    font-family: 'open_sansregular';
     src: url('fonts/opensans/opensans-regular-webfont.eot');
-    src: url('fonts/opensans/opensans-regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('fonts/opensans/opensans-regular-webfont.woff') format('woff'), url('fonts/opensans/opensans-regular-webfont.ttf') format('truetype'), url('fonts/opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    src: url('fonts/opensans/opensans-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 /* Global Styles */
@@ -587,7 +611,7 @@ div.list-posts ul li a:hover{
 }
 
 .section-colored {
-  background-color: #ECF0F1;
+  background-color: #FAFAFA;
 }
 
 .section-colored.home{

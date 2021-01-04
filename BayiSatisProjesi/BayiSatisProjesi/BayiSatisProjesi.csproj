@@ -140,9 +140,12 @@
     <Content Include="banzhow\js\plugins.js" />
     <Content Include="banzhow\js\switcher\switcher.css" />
     <Content Include="banzhow\js\switcher\switcher.js" />
+    <Content Include="banzhow\portfolio-1-col.html" />
+    <Content Include="banzhow\portfolio-2-col.html" />
+    <Content Include="banzhow\portfolio-3-col.html" />
+    <Content Include="banzhow\portfolio-item.html" />
     <Content Include="banzhow\services.html" />
     <Content Include="banzhow\sidebar.html" />
-    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -197,6 +200,7 @@
     <Content Include="banzhow\css\fonts\pacifico\pacifico-webfont.ttf" />
     <Content Include="banzhow\css\fonts\pacifico\pacifico-webfont.woff" />
     <Content Include="banzhow\css\fonts\pacifico\pacifico-webfontd41d.eot" />
+    <Content Include="banzhow\debug.log" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Anasayfa.cshtml" />
@@ -215,6 +219,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
